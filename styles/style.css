@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+English+SC');
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+img {
+  height:30%;
+  width:25%;
+  border-radius: 25%;
+  margin: 10%;
+}
+
+div {
+  position:absolute;
+  display: flex;
+  align-items:column;
+  text-align: center;
+}
+
+img:hover {
+  border-style: dotted
+}
+
+img:active {
+  border-radius: 50%;
+
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: green;
+}
+
+h1 {
+  color: gray;
+  font-size: 225%;
+  font-family: 'IM Fell English SC', serif;
+
+}
+
+body {
+  background: url("../images/sunset.jpg");
+  padding-bottom: 15em;
+  width:100%;
+  margin:0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h2 {
+  color: gray;
+}
+
+p {
+  color: pink;
+  font-family: cursive;
+  font-size:150%;
+}
+
+ol {
+  color:#F9BDA9;
+  font-size: 165%
+}
+
+ul {
+  color:#F9BDA9;
+  font-size: 150%
+}
+.navbar {
+  list-style-type: none;
+  background: gray;
+  padding: 3%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top:0%;
+  margin-top:0%;
+}
+
+.nav-item a{
+  color: pink;
+  font-family: Lobster;
+  font-size: 125%;
+}
+
+footer {
+  background-color: gray;
+  border-top: solid 3px pink;
+  padding: 1.895%;
+  display: flex;
+  display; block;
+  position: fixed;
+  clear: both;
+  align-items: flex-end;
+  justify-content: space-around;
+  width: 100%;
+  bottom: 0%;
+}
+
+a:link {
+  text-decoration: none;
+}
