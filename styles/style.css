@@ -8,12 +8,12 @@ img {
   margin: 10%;
 }
 
-div {
-  position:absolute;
-  display: flex;
-  align-items:column;
-  text-align: center;
-}
+/*div {*/
+/*  position:absolute;*/
+/*  display: flex;*/
+/*  align-items:column;*/
+/*  text-align: center;
+}*/
 
 img:hover {
   border-style: dotted
