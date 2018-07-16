@@ -1,19 +1,46 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+English+SC');
 @import url('https://fonts.googleapis.com/css?family=Shrikhand');
 @import url('https://fonts.googleapis.com/css?family=Lobster');
+@media screen and (max-width:600px){
+  ul.nav li.icon{
+    display:block;
+    position: fixed;
+    right:0;
+  }
+
+  nav li{
+    display:none;
+  }
+
+
+.navbar button{
+  background:none;
+  color:white;
+  border:none;
+  font-size:1em;
+  padding:0%;
+  display: flex;
+  justify-content: center;
+}
+.nav-item.responsive li{
+  display:block;
+}}
+.icon{
+  display:none;
+}
 img {
   height:30%;
-  width:25%;
+  width:45%;
   border-radius: 25%;
   margin: 10%;
 }
 
-/*div {*/
-/*  position:absolute;*/
-/*  display: flex;*/
-/*  align-items:column;*/
-/*  text-align: center;
-}*/
+div {
+ position:absolute;
+ display: flex;
+ align-items:column;
+ text-align: center;
+}
 
 img:hover {
   border-style: dotted
@@ -46,6 +73,7 @@ body {
   margin:0;
   background-repeat: no-repeat;
   background-size: cover;
+  text-align: center;
 }
 
 h2 {
@@ -59,14 +87,17 @@ p {
 }
 
 ol {
-  color:#F9BDA9;
-  font-size: 165%
+  color: white;
+  font-size: 170%;
+  list-style-type: none;
 }
 
 ul {
-  color:#F9BDA9;
-  font-size: 150%
+  color:black;
+  font-size: 170%;
+  list-style-type: none;
 }
+
 .navbar {
   list-style-type: none;
   background: gray;
@@ -89,7 +120,7 @@ footer {
   border-top: solid 3px pink;
   padding: 1.895%;
   display: flex;
-  display; block;
+  display: block;
   position: fixed;
   clear: both;
   align-items: flex-end;
@@ -98,6 +129,23 @@ footer {
   bottom: 0%;
 }
 
-a:link {
+a{
   text-decoration: none;
+  color: white;
+  font-size: 145%;
 }
+.grid-cell{
+  flex:1;
+  margin-bottom: 3.3%;
+  padding-right: 2%;
+  display: block;
+  margin:auto;
+}
+.grid{
+  display:flex;
+  padding-left: 5.6%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  flex-wrap: nowrap;
+}
+
